@@ -2,6 +2,27 @@
 
 把杂乱的婚礼资料交给 AI：**先清洗成简洁流程 → 你确认 → 再生成海报**。
 
+## 使用方式
+
+把下面这条安装命令，直接发给支持安装 Skill 的 **Codex、WorkBuddy、Claude 等 AI Agent**：
+
+```bash
+npx skills add langzhaoxuan666-sys/wedding-flow-poster-lite
+```
+
+安装完成后，把你的婚礼流程、主持流程、语音转文字记录或其他杂乱资料直接发给 AI，然后告诉它使用 **wedding-flow-poster-lite** 整理并生成流程海报。
+
+使用流程：
+
+```text
+发送婚礼资料
+→ AI 清洗成简洁流程
+→ 你确认文字与顺序
+→ AI 生成 9:16 流程海报
+```
+
+> 不同 AI Agent 的 Skill 安装方式可能略有差异；如果 Agent 支持从 GitHub 安装 Skill，直接把上面的命令发给它即可。
+
 ## 两步完成
 
 1. AI 只整理海报需要的内容：新人、日期、时间、地点、简洁流程；
